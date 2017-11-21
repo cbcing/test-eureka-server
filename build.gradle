@@ -83,6 +83,11 @@ buildscript {
 apply plugin: 'spring-boot'
 apply plugin: 'idea'
 
+jar {
+    baseName = 'test-eureka-server'
+    version = '0.0.1-SNAPSHOT'
+}
+
 ext {
     name = 'Eureka Server'
     description = 'Eureka Server demo project'
